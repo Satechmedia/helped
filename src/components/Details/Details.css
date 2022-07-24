@@ -1,0 +1,195 @@
+h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #7681ab;
+  }
+  
+  p.desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #dcdcdc;
+    margin-top: 20px;
+  }
+  
+  p.cap {
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .desc-col {
+    margin-right: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .card-closed {
+    color: #ffffff;
+  }
+  .swap {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7681ab;
+  }
+  
+  hr {
+    border: 1px solid rgba(109, 129, 178, 0.2);
+  }
+  
+  div.tabs {
+    margin-top: 50px;
+  }
+  .tab,
+  .tab:active,
+  .tab:visited,
+  .tab:focus {
+    color: #4a5074 !important;
+  }
+  
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ffffff !important;
+    font-weight: 500;
+  }
+  
+  .ant-tabs-ink-bar {
+    position: absolute;
+    background: #3f0fdf;
+    pointer-events: none;
+  }
+  
+  .pool {
+    margin-right: 70px;
+  }
+  
+  .pool-info {
+    color: #ffffff;
+    background-color: #4a5074;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .token-info {
+    color: #ffffff;
+    background-color: #4a5074;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .ant-table.ant-table,
+  .ant-table-title,
+  .ant-table.ant-table .ant-table-footer,
+  .ant-table.ant-table .ant-table-thead > tr > th,
+  .ant-table.ant-table .ant-table-tbody > tr > td,
+  .ant-table.ant-table tfoot > tr > th,
+  .ant-table.ant-table tfoot > tr > td {
+    padding: 12px 8px;
+    background: transparent;
+    color: #ffffff;
+  }
+  
+  .approve {
+    margin-right: 10px;
+    margin-top: 30px;
+    background: linear-gradient(
+      92.99deg,
+      #20d4b9 -41.39%,
+      #516fd1 54.73%,
+      #8209ea 141.33%
+    );
+    border: none;
+    width: 30%;
+  }
+  .approve1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    background: linear-gradient(
+      92.99deg,
+      #20d4b9 -41.39%,
+      #516fd1 54.73%,
+      #8209ea 141.33%
+    );
+    border: none;
+    width: 100%;
+  }
+  .approve2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    background: linear-gradient(
+      92.99deg,
+      #20d4b9 -41.39%,
+      #516fd1 54.73%,
+      #8209ea 141.33%
+    );
+    border: none;
+    /* width: 100%; */
+  }
+  
+  .join-pool {
+    margin-top: 30px;
+    background: linear-gradient(
+      92.99deg,
+      #20d4b9 -41.39%,
+      #516fd1 54.73%,
+      #8209ea 141.33%
+    );
+    border: none;
+    width: 30%;
+  }
+  
+  .ant-modal-body,
+  .ant-modal-header {
+    background: #1f1e3e;
+    border: none;
+  }
+  .ant-modal-title {
+    color: #ffffff;
+  }
+  
+  .ant-modal-content p {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .ant-modal-close {
+    color: #ffffff;
+  }
+  
+  .input {
+    width: 100%;
+  }
+  /* .ant-progress {
+    width: 430px;
+  } */
+  
+  .ant-progress-text {
+    color: #ffffff !important;
+    /* position: absolute; */
+    /* top: 25px; */
+    /* right: 50px; */
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .allocation {
+      width: 300px;
+      overflow: visible;
+      margin: 0px auto 0px auto;
+    }
+  }
+  

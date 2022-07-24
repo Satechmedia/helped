@@ -1,0 +1,94 @@
+.body {
+    background: #1f1e3e;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #3f0fdf;
+    margin-bottom: 100px;
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .body {
+      padding: 30px;
+      margin: auto;
+      width: 90%;
+    }
+  }
+  
+  .info {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #3f0fdf;
+    margin: 10px;
+  }
+  
+  .ant-statistic {
+    color: #ffffff !important;
+  }
+  .ant-statistic-title {
+    color: #787c96;
+  }
+  .ant-statistic-content {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  div.tabs {
+    margin-top: 50px;
+  }
+  .tab,
+  .tab:active,
+  .tab:visited,
+  .tab:focus {
+    color: #4a5074 !important;
+  }
+  
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ffffff !important;
+    font-weight: 500;
+  }
+  
+  .ant-tabs-ink-bar {
+    position: absolute;
+    background: #3f0fdf;
+    pointer-events: none;
+  }
+  
+  .deposit {
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: #3f0fdf solid 1px;
+    color: #ffffff;
+  }
+  
+  .deposit p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .deposit Input {
+    background: transparent;
+    border-radius: 5px;
+  }
+  
+  .deposit Button {
+    background: linear-gradient(
+      92.99deg,
+      #20d4b9 -41.39%,
+      #516fd1 54.73%,
+      #8209ea 141.33%
+    );
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .rewards {
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px;
+    background-color: #3f0fdf;
+    height: 179px;
+  }
+  
