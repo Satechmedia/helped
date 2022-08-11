@@ -2,17 +2,18 @@ import { Row, Col, Input, Pagination } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import "./launchpad.css";
 import TstToken from "./components/TstToken";
-import BriseSwap from "./components/BriseSwap";
+
 
 export default function Presale() {
   return (
     <div>
       <h1 className="projects">Projects Open Now</h1>
-      <Row>
+      <p style={{ textAlign: "center" }}>No projects currently</p>
+      {/* <Row>
         <Col lg={12} md={12} sm={24} style={{ marginLeft: "40px" }}>
           <BriseSwap />
         </Col>
-      </Row>
+      </Row> */}
       {/* <p style={{ textAlign: "center" }}>No projects currently open</p> */}
       <h1 className="projects">Projects Coming soon</h1>
       <p style={{ textAlign: "center" }}>No projects currently</p>

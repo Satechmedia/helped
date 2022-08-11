@@ -49,7 +49,7 @@ const styles = {
     fontFamily: "Roboto, sans-serif",
     borderBottom: "2px solid rgba(0, 0, 0, 0.06)",
     padding: "0px 10px",
-    boxShadow: "0 1px 10px rgb(151 164 175 / 10%)",
+    boxShadow: "0 1px 10px #f5ba38",
   },
   headerRight: {
     display: "flex",
@@ -181,9 +181,15 @@ const App = ({ isServerInfo }) => {
 };
 
 export const Logo = () => (
-  <div style={{ display: "flex" }}>
+  <div 
+      style={{
+        display: "flex",
+        alignItems: "center", 
+        justifyContent: "center",
+        marginLeft: "50px"
+      }}>
     <a href="/">
-      <img src="/logo.png" width="150" alt="" />
+      <img src="/logo.png" width="36" alt="" />
     </a>
   </div>
 );

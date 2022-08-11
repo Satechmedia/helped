@@ -123,7 +123,7 @@ import {
       <div style={styles.body}>
         <Row align="middle">
           <Col lg={2} md={6} sm={6} xs={8}>
-            <Avatar size={80} src="/bayc.jpeg" />
+            <Avatar size={80} src="/bayc.jpg" />
           </Col>
           <Col lg={8} md={12} sm={12} xs={8}>
             <div>
@@ -140,17 +140,14 @@ import {
         </div>
         <div className="buttons">
           <a className="closed">Closed</a>
-          <a className="brise">BRISE</a>
+          <a className="brise">BNB</a>
         </div>
-        <p className="cap">1 BRISE = 1200 TST</p>
+        <p className="cap">1 BNB = 1200 TST</p>
         <Row align="middle">
           <Col lg={8} md={24} sm={24} xs={24} className="desc-col">
             <p className="desc">
-              TestToken is designed to help fuel the future of mass-market
-              blockchain applications building on Bitgert chain We aim to be the
-              largest decentralized launchpad on Bitgert Chain attracting solid
-              projects and help them raise enough liquidity for their project
-              development.
+            A defi gateway hub to limitless network, accessible markets.
+            Cakepad is part of the utility product of Caketools.....
             </p>
             <div className="pool-button">
               <Button
@@ -171,7 +168,7 @@ import {
                 onCancel={handleCancel2}
                 footer={null}
               >
-                <p>BRISE AMOUNT:</p>
+                <p>BNB AMOUNT:</p>
                 <Input
                   min={1}
                   max={10}

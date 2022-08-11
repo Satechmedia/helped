@@ -17,7 +17,7 @@ function Reward() {
           (data && Math.floor(Moralis.Units.FromWei(data, 8)) / 10000000000) ||
           0
         ).toFixed(3)}
-        suffix="BRISE"
+        suffix="BNB"
       />
     </Card>
   );

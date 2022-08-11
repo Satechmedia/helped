@@ -4,7 +4,7 @@ h1 {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    color: #ffffff;
+    color: #FFD700;
   }
   h3 {
     font-family: "Roboto";
@@ -31,6 +31,7 @@ h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    color: #FFD700;
   }
   
   .desc-col {
@@ -50,7 +51,7 @@ h1 {
   }
   
   hr {
-    border: 1px solid rgba(109, 129, 178, 0.2);
+    border: 1px solid rgba(172, 178, 109, 0.2);
   }
   
   div.tabs {
@@ -70,7 +71,7 @@ h1 {
   
   .ant-tabs-ink-bar {
     position: absolute;
-    background: #3f0fdf;
+    background: #FFD700;
     pointer-events: none;
   }
   
@@ -143,16 +144,26 @@ h1 {
   
   .join-pool {
     margin-top: 30px;
-    background: linear-gradient(
+    background-color: #2a2404;
+    /* background: linear-gradient(
       92.99deg,
-      #20d4b9 -41.39%,
+      #b79b0c -41.39%,
       #516fd1 54.73%,
       #8209ea 141.33%
-    );
-    border: none;
+    ); */
+    border: 1px solid #FFD700;
+    font-size: 30px;
+    color: #FFD700;
     width: 30%;
   }
   
+  .join-pool:hover{
+    color: #ffffff;
+    background-color: #8a7707;
+    border: 1px solid #FFD700;
+  }
+
+
   .ant-modal-body,
   .ant-modal-header {
     background: #1f1e3e;
@@ -173,6 +184,7 @@ h1 {
   
   .input {
     width: 100%;
+    border: 1px solid #FFD700;
   }
   /* .ant-progress {
     width: 430px;

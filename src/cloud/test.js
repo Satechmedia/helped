@@ -671,7 +671,7 @@ Moralis.Cloud.define("get_totalAmount", async (request) => {
   );
   const contract = new web3.eth.Contract(
     abi,
-    "0x030309Bcff6c59beC2B09458E063bc8E1b1A0546"
+    "0x5e0B46cf7f6bd5D935D6443e8dB533f5c6DaC8df"
   );
   const total = await contract.methods
     .totalPurchasedAmount()
@@ -682,3 +682,5 @@ Moralis.Cloud.define("get_totalAmount", async (request) => {
     });
   return total;
 });
+
+

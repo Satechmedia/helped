@@ -26,17 +26,17 @@ function Project() {
     {
       key: "4",
       name: "Swap Rate:",
-      address: "1 BRISE = 1200 TST",
+      address: "1 BNB = 1200 TST",
     },
     {
       key: "5",
       name: "Soft Cap:",
-      address: "25,000 BRISE",
+      address: "250 BNB",
     },
     {
       key: "6",
       name: "Hard Cap:",
-      address: "50,000 BRISE",
+      address: "500 BNB",
     },
     // {
     //   key: "7",
@@ -84,12 +84,12 @@ function Project() {
       address: (
         <>
           <a
-            href="https://brisescan.com/address/0x79dCA2e16a05C2e8cBf5f2287E370fC152f8BCf8/contracts"
+            href="https://bscscan.com/address/0xc8037b53423daccae4b95e1ba132a66aca82eaa3"
             target="_blank"
             rel="noreferrer"
             style={{ color: "#20D4B9", marginRight: "10px" }}
           >
-            BriseScan
+            Bscscan
           </a>
           <AddToken />
         </>

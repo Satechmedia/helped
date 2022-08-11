@@ -27,7 +27,7 @@ export default function Cards() {
       <Card style={styles.card} className="card">
         <Row>
           <Col span={8}>
-            <Avatar size={80} src="/bayc.jpeg" />
+            <Avatar size={80} src="/bayc.jpg" />
           </Col>
           <Col span={12}>
             <div>
@@ -42,22 +42,21 @@ export default function Cards() {
             </div>
             <div className="buttons">
               <a className="closed">Closed</a>
-              <a className="brise">BRISE</a>
+              <a className="brise">BNB</a>
             </div>
           </Col>
         </Row>
         <p className="desc">
-          TestToken is designed to help fuel the future of mass-market
-          blockchain applications building on Bitgert chain We aim to be the
-          largest decentralized...
+        A defi gateway hub to limitless network, accessible markets.
+        Cakepad is part of the utility product of Caketools....
         </p>
         <div className="swap">
           <p>Swap Rate</p>
-          <p>1 BRISE = 1200 TST</p>
+          <p>1 BNB = 1200 TST</p>
         </div>
         <div className="cap">
           <p>Cap</p>
-          <p>50,000 BRISE</p>
+          <p>500 BNB</p>
         </div>
         <div className="progress">
           <p>Progress</p>

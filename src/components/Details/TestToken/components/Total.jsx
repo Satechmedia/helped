@@ -8,7 +8,7 @@ function Total() {
       <Statistic
         title="Total purchased amount"
         value={(data && Moralis.Units.FromWei(data, 18)) || 0}
-        suffix="BRISE"
+        suffix="BNB"
       />
     </>
   );

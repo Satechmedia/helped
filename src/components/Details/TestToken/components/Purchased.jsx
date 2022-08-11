@@ -9,7 +9,7 @@ function Purchased() {
     <Statistic
       title="Purchased amount"
       value={(data && Moralis.Units.FromWei(data, 18)) || 0}
-      suffix="BRISE"
+      suffix="BNB"
     />
   );
 }

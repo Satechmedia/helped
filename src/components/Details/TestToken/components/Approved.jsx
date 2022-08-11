@@ -10,7 +10,7 @@ function Approved() {
       <Statistic
         title="Your approved amount"
         value={(data && Moralis.Units.FromWei(data, 18)) || 0}
-        suffix="BRISE"
+        suffix="BNB"
       />
     </>
   );

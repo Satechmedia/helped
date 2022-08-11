@@ -2,7 +2,7 @@ import { Button } from "antd";
 
 function AddToken() {
   async function addTokenToWallet() {
-    const tokenAddress = "0x79dCA2e16a05C2e8cBf5f2287E370fC152f8BCf8";
+    const tokenAddress = "0xC8037B53423daCCae4b95E1ba132A66aCa82EAa3";
     const tokenSymbol = "TST";
     const tokenDecimals = 16;
 

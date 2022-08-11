@@ -130,9 +130,9 @@ function Stake() {
         <Col lg={9} md={9} sm={24} xs={24}>
           <Card className="info">
             <Statistic
-              title="Total BPAD Staked"
+              title="Total CKT Staked"
               value={data && Moralis.Units.FromWei(data[0], 8)}
-              suffix="BPAD"
+              suffix="CKT"
             />
           </Card>
         </Col>

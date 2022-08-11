@@ -11,9 +11,9 @@ function Balance() {
 
   return (
     <Statistic
-      title="BPAD Balance"
+      title="CKT Balance"
       value={data && Math.floor(Moralis.Units.FromWei(data, 8))}
-      suffix="BPAD"
+      suffix="CKT"
     />
   );
 }
