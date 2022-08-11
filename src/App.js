@@ -164,7 +164,7 @@ const App = ({ isServerInfo }) => {
           }}
         >
           <p className="copy">
-            Copyright @ 2022. All Rights Reserved by Brisepad
+            Copyright @ 2022. All Rights Reserved by Cakepad
           </p>
           <div>
             <a href="" className="link" style={{ marginRight: "10px" }}>
