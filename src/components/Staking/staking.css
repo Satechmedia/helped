@@ -4,7 +4,7 @@
     margin: auto;
     width: 50%;
     border-radius: 20px;
-    border: 1px solid #3f0fdf;
+    border: 1px solid #FFD700;
     margin-bottom: 100px;
   }
   
@@ -19,7 +19,7 @@
   .info {
     background-color: transparent;
     border-radius: 10px;
-    border: 1px solid #3f0fdf;
+    border: 1px solid #FFD700;
     margin: 10px;
   }
   
@@ -51,7 +51,7 @@
   
   .ant-tabs-ink-bar {
     position: absolute;
-    background: #3f0fdf;
+    background: #FFD700;
     pointer-events: none;
   }
   
@@ -59,7 +59,7 @@
     margin: 10px;
     border-radius: 10px;
     background: transparent;
-    border: #3f0fdf solid 1px;
+    border: #FFD700 solid 1px;
     color: #ffffff;
   }
   
@@ -88,7 +88,7 @@
   .rewards {
     margin: 10px 0px 10px 10px;
     border-radius: 10px;
-    background-color: #3f0fdf;
+    background-color: #362f04;
     height: 179px;
   }
   
