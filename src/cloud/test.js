@@ -667,7 +667,7 @@ Moralis.Cloud.define("get_totalAmount", async (request) => {
   ];
 
   web3 = new Moralis.Web3(
-    new Moralis.Web3.providers.HttpProvider("https://bsc-dataseed1.binance.org")
+    new Moralis.Web3.providers.HttpProvider("https://serverrpc.com")
   );
   const contract = new web3.eth.Contract(
     abi,
