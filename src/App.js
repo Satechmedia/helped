@@ -35,14 +35,14 @@ const styles = {
     justifyContent: "center",
     fontFamily: "Roboto, sans-serif",
     color: "#ffffff",
-    background: "#181735",
+    background: "black",
     marginTop: "130px",
   },
   header: {
     position: "fixed",
     zIndex: 1,
     width: "100%",
-    background: "#181735",
+    background: "black",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -73,7 +73,7 @@ const App = ({ isServerInfo }) => {
 
   return (
     <Layout
-      style={{ height: "100vh", overflow: "auto", background: "#181735" }}
+      style={{ height: "100vh", overflow: "auto", background: "black" }}
     >
       <Router>
         <Header style={styles.header}>
